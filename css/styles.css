@@ -120,11 +120,6 @@ section {
     </div>
 </section>
 
-<!-- TESTIMONIALS SECTION -->
-<section class="testimonials-container">
-    <h2>WHAT <span class="highlight">PEOPLE</span> SAY</h2>
-    ...
-</section>
 
 /* Testimonials Section */
 .testimonials-container {
@@ -267,11 +262,45 @@ section {
         font-size: 18px;
     }
 }
-
 .about-image img {
-    width: 180px;  /* Adjust as needed */
+    width: 180px;  /* Adjustable size */
     height: auto;
     border-radius: 50%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     object-fit: cover;
+    max-width: 100%;  /* Ensures responsiveness */
+}
+
+@media (max-width: 768px) {
+    .about-image img {
+        width: 140px;  /* Reduce size on smaller screens */
+    }
+}
+/* About Section */
+.about-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-content {
+    text-align: left;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
