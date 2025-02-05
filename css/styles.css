@@ -304,3 +304,38 @@ section {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.about-image img {
+    width: 180px;  /* Adjust as needed */
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.logo {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+ 
+.testimonial-slide {
+    display: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Ensure the first testimonial is always visible */
+.testimonial-slide:first-child {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
