@@ -97,6 +97,35 @@ section {
     margin: 15px 0;
 }
 
+<!-- ABOUT SECTION -->
+<section class="about-section">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="/images/headshot.webp" alt="Paul Takisaki Headshot">
+        </div>
+        <div class="about-content">
+            <h2>Meet Paul Takisaki</h2>
+            <p>
+                I’m a <strong>Fractional CRO</strong> with 15+ years of experience helping AI, SaaS, and B2B startups scale revenue.
+                I specialize in optimizing <strong>GTM strategy, sales process, and revenue growth</strong>. 
+                Having led high-performing teams and earned Verizon’s <strong>President’s Cabinet</strong> four times, 
+                I know what it takes to turn struggling revenue engines into predictable growth machines.
+            </p>
+            <p>
+                Whether your sales team is underperforming or your competitors are scaling faster, 
+                I’ll help you <strong>outperform, outposition, and outgrow your competition</strong>.
+            </p>
+            <a href="https://calendly.com/YOURUSERNAME" class="cta-button">Schedule a Strategy Call</a>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+<section class="testimonials-container">
+    <h2>WHAT <span class="highlight">PEOPLE</span> SAY</h2>
+    ...
+</section>
+
 /* Testimonials Section */
 .testimonials-container {
     background: url('../images/testimonial-bg.jpg') no-repeat center center/cover;
